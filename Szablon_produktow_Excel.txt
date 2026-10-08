@@ -1,0 +1,23 @@
+Kategoria;Nazwa produktu;Krótki opis;Cena;Zdjęcie (nazwa pliku);Uwagi
+Lodówki;;;;;
+Lodówki;;;;;
+Lodówki;;;;;
+Pralki;;;;;
+Pralki;;;;;
+Pralki;;;;;
+Zmywarki;;;;;
+Zmywarki;;;;;
+Piekarniki;;;;;
+Piekarniki;;;;;
+Płyty grzewcze;;;;;
+Kuchenki;;;;;
+Suszarki;;;;;
+Zamrażarki;;;;;
+Małe AGD;;;;;
+Inne;;;;;
+
+--- PROMOCJE ---
+Nazwa produktu;Opis promocji;Cena promocyjna;Cena stara;Zdjęcie
+
+--- MAGAZYN ---
+Nazwa produktu;Status;Cena;Zdjęcie
