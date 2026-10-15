@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORMA — strony internetowe dla firm lokalnych</title>
+  <meta name="description" content="Projektuję i wdrażam strony WWW dla lokalnych firm: wizytówki, katalogi, formularze leadów. Jasna wycena, termin i opieka po starcie." />
+  <meta name="theme-color" content="#0c0f14" />
+  <meta property="og:title" content="FORMA — strony dla firm lokalnych" />
+  <meta property="og:description" content="Strony, które wyglądają serio i zbierają zapytania. Pakiety od wizytówki po katalog z promocjami." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">FORMA<span>.</span></a>
+      <nav class="nav-links" aria-label="Główne">
+        <a href="#uslugi">Usługi</a>
+        <a href="#cennik">Cennik</a>
+        <a href="#proces">Proces</a>
+        <a href="#realizacje">Realizacje</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="#kontakt">Bezpłatna wycena</a>
+      <button class="menu-toggle" type="button" aria-label="Otwórz menu" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="container nav-mobile" id="navMobile">
+      <a href="#uslugi">Usługi</a>
+      <a href="#cennik">Cennik</a>
+      <a href="#proces">Proces</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="btn btn-primary" href="#kontakt">Bezpłatna wycena</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Strony WWW · firmy lokalne · jasna wycena</div>
+          <h1>Strona, która wygląda profesjonalnie i <em>zbiera telefony</em> — nie tylko „jest w internecie”.</h1>
+          <p class="hero-lead">
+            Pomagam właścicielom firm z małych i średnich miast mieć stronę, której nie muszą się wstydzić:
+            czytelna na telefonie, z formularzem zapytań i pakietem, który da się zrozumieć bez technicznego żargonu.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#cennik">Zobacz pakiety</a>
+            <a class="btn btn-ghost" href="#realizacje">Przykładowe realizacje</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>2–6 tyg.</strong>
+              <span>typowy termin wdrożenia</span>
+            </div>
+            <div class="stat">
+              <strong>3 pakiety</strong>
+              <span>od wizytówki do katalogu</span>
+            </div>
+            <div class="stat">
+              <strong>Opieka</strong>
+              <span>opcjonalnie po starcie</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Podgląd efektu">
+          <div class="hero-card-top">
+            <span>Podgląd strony firmowej</span>
+            <span class="badge-live">Mobile ready</span>
+          </div>
+          <div class="mock-browser">
+            <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="mock-body">
+              <div class="mock-line mid"></div>
+              <div class="mock-line short"></div>
+              <div class="mock-line"></div>
+              <div class="mock-blocks">
+                <div class="mock-block"></div>
+                <div class="mock-block"></div>
+              </div>
+            </div>
+          </div>
+          <p class="hero-card-foot">Projekt + wdrożenie + instrukcja „jak zmienić tekst” albo opieka miesięczna.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="uslugi">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">Usługi</div>
+          <h2>To, czego realnie potrzebuje lokalna firma</h2>
+          <p>Bez zbędnych „modułów AI”. Skupiam się na tym, co zwiększa zaufanie i liczbę zapytań.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">1</div>
+            <h3>Strona wizytówkowa</h3>
+            <p>Kim jesteście, co oferujecie, gdzie was znaleźć, przycisk „zadzwoń” i formularz. Idealne na start.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">2</div>
+            <h3>Strona firmowa</h3>
+            <p>Więcej podstron, usługi, zespół, realizacje, mapy, social media. Wygląd spójny z marką.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">3</div>
+            <h3>Katalog / promocje</h3>
+            <p>Kategorie produktów lub ofert, wyróżnione promocje, koszyk zapytań albo formularz zamówienia.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">4</div>
+            <h3>Formularze i leady</h3>
+            <p>Zgłoszenie naprawy, wyceny, rezerwacji — wiadomość ląduje na mailu firmy, nie ginie w spamie UI.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">5</div>
+            <h3>Podstawowe SEO lokalne</h3>
+            <p>Tytuły, opisy, dane kontaktowe, mapa, szybkość na telefonie — fundament pod Google.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">6</div>
+            <h3>Opieka po wdrożeniu</h3>
+            <p>Drobne zmiany tekstów, kopie zapasowe, hosting, monitoring — żeby strona nie umarła po oddaniu.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cennik" class="pricing">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">Cennik</div>
+          <h2>Jasne pakiety — wiesz, za co płacisz</h2>
+          <p>Ceny orientacyjne netto. Ostateczna wycena po krótkiej rozmowie o branży i materiałach.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Wizytówka</h3>
+            <p class="tagline">Dla firm, które chcą wreszcie wyglądać serio online.</p>
+            <div class="price">od 2&nbsp;500&nbsp;zł <small>netto</small></div>
+            <p class="price-note">1–5 podstron · ok. 2–3 tygodnie</p>
+            <ul>
+              <li>Projekt dopasowany do branży</li>
+              <li>Wersja mobilna</li>
+              <li>Formularz kontaktowy</li>
+              <li>Mapa / dane firmy</li>
+              <li>Podstawowe SEO (title, description)</li>
+              <li>2 rundy poprawek</li>
+            </ul>
+            <a class="btn btn-ghost btn-full" href="#kontakt" data-package="Wizytówka">Wybieram wizytówkę</a>
+          </article>
+
+          <article class="price-card featured">
+            <h3>Firma</h3>
+            <p class="tagline">Najczęstszy wybór lokalnych usług i handlu.</p>
+            <div class="price">od 5&nbsp;500&nbsp;zł <small>netto</small></div>
+            <p class="price-note">6–12 podstron · ok. 3–5 tygodni</p>
+            <ul>
+              <li>Wszystko z pakietu Wizytówka</li>
+              <li>Sekcje usług / oferty</li>
+              <li>Galeria lub realizacje</li>
+              <li>Integracja FB / Instagram</li>
+              <li>Google Analytics (opcjonalnie)</li>
+              <li>Instrukcja aktualizacji treści</li>
+            </ul>
+            <a class="btn btn-primary btn-full" href="#kontakt" data-package="Firma">Wybieram pakiet Firma</a>
+          </article>
+
+          <article class="price-card">
+            <h3>Katalog</h3>
+            <p class="tagline">Gdy masz wiele produktów, promocji lub magazyn.</p>
+            <div class="price">od 9&nbsp;500&nbsp;zł <small>netto</small></div>
+            <p class="price-note">Katalog + leady · indywidualny termin</p>
+            <ul>
+              <li>Struktura kategorii i kart</li>
+              <li>Wyróżnione promocje</li>
+              <li>Koszyk zapytań lub formularz zamówienia</li>
+              <li>Przygotowanie pod dalszy rozwój (CMS / sklep)</li>
+              <li>Szkolenie z aktualizacji</li>
+              <li>Priorytetowy kontakt w trakcie projektu</li>
+            </ul>
+            <a class="btn btn-ghost btn-full" href="#kontakt" data-package="Katalog">Wybieram katalog</a>
+          </article>
+        </div>
+        <p class="form-note" style="margin-top: 1.25rem; text-align: center;">
+          Sklep z płatnościami online (karta, przelewy) wyceniany osobno. Opieka miesięczna: zwykle 150–400&nbsp;zł netto.
+        </p>
+      </div>
+    </section>
+
+    <section id="proces">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">Proces</div>
+          <h2>Jak wygląda współpraca</h2>
+          <p>Bez chaosu i „jeszcze tylko jedna mała rzecz” bez limitu.</p>
+        </div>
+        <div class="process-steps">
+          <article class="step">
+            <h3>Rozmowa</h3>
+            <p>15–30 minut: branża, cele, czy jest logo i zdjęcia. Dostajesz orientacyjną wycenę.</p>
+          </article>
+          <article class="step">
+            <h3>Umowa i zaliczka</h3>
+            <p>Spisany zakres, termin, liczba poprawek. Start po zaliczce (zazwyczaj 40–50%).</p>
+          </article>
+          <article class="step">
+            <h3>Projekt i treść</h3>
+            <p>Makieta / kierunek wizualny, struktura podstron, uzupełnienie tekstów wspólnie z Tobą.</p>
+          </article>
+          <article class="step">
+            <h3>Wdrożenie</h3>
+            <p>Strona na hostingu, testy na telefonie, przekazanie dostępów i krótka instrukcja.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="realizacje">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">Realizacje</div>
+          <h2>Przykłady kierunku, w którym pracuję</h2>
+          <p>Uzupełnij linkami do live’ów, gdy projekt jest publiczny. Poniżej wzorcowe case’y pod portfolio.</p>
+        </div>
+        <div class="portfolio-grid">
+          <article class="case">
+            <div class="case-visual">DOMEL · Konin</div>
+            <div class="case-body">
+              <h3>Serwis i sprzedaż AGD</h3>
+              <p>
+                Strona lokalnego biznesu: katalog kategorii, promocje dnia, magazyn, formularz zgłoszenia naprawy,
+                dane kontaktowe i social media. Skupienie na telefonie i szybkim kontakcie.
+              </p>
+              <div class="tags">
+                <span class="tag">Katalog</span>
+                <span class="tag">Formularz serwisu</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">Lokalne SEO</span>
+              </div>
+            </div>
+          </article>
+          <article class="case">
+            <div class="case-visual alt">Twoja kolejna firma</div>
+            <div class="case-body">
+              <h3>Slot na nowy projekt</h3>
+              <p>
+                Tu wstawisz kolejną realizację: hydraulik, salon, warsztat, biuro rachunkowe.
+                Im więcej lokalnych case’ów, tym łatwiej sprzedać kolejną stronę.
+              </p>
+              <div class="tags">
+                <span class="tag">Wizytówka</span>
+                <span class="tag">Usługi</span>
+                <span class="tag">Lead</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-mnie">
+      <div class="container about-grid">
+        <div>
+          <div class="section-label">O współpracy</div>
+          <h2 style="font-family: var(--font-display); letter-spacing: -0.03em; margin-bottom: 1rem;">
+            Pracuję z firmami, które chcą konkretu — nie „strony za 500 zł z szablonu bez opieki”.
+          </h2>
+          <div class="about-text">
+            <p>
+              Nazywam się <strong>[Twoje imię]</strong> i prowadzę FORMA — niezależne studio stron dla firm lokalnych.
+              Stawiam na czytelny zakres, termin i wygląd, który buduje zaufanie u klienta końcowego.
+            </p>
+            <p>
+              Jeśli potrzebujesz sklepu z płatnościami kartą albo dużej aplikacji — powiem wprost, co dam radę sam,
+              a co lepiej zrobić z partnerem. Bez obiecywania cudów w Google w tydzień.
+            </p>
+          </div>
+        </div>
+        <ul class="about-list">
+          <li>Umowa i faktura (JDG)</li>
+          <li>Zaliczka przed startem prac</li>
+          <li>Limitowane rundy poprawek w cenie</li>
+          <li>Kod i dostęp przekazywane po rozliczeniu</li>
+          <li>Opcjonalna opieka miesięczna</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="kontakt" class="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h2>Napisz — odpiszę z orientacyjną wyceną</h2>
+            <p>
+              Opisz krótko firmę i czego potrzebujesz. Zwykle odpisuję w 1–2 dni robocze.
+              Rozmowa telefoniczna po wstępnym dopasowaniu pakietu.
+            </p>
+            <div class="contact-meta">
+              <a href="mailto:kontakt@twojadomena.pl"><strong>Mail</strong> kontakt@twojadomena.pl</a>
+              <a href="tel:+48123456789"><strong>Tel.</strong> +48 123 456 789</a>
+              <span><strong>Obszar</strong> Konin i okolice · zdalnie cała PL</span>
+            </div>
+          </div>
+
+          <form id="leadForm" novalidate>
+            <div class="form-success" id="formSuccess" role="status">
+              Dziękuję. Wiadomość została przygotowana — jeśli korzystasz z Formspree, uzupełnij endpoint w pliku JS.
+              Na razie otworzy się Twój program pocztowy z gotową treścią.
+            </div>
+            <div class="form-row">
+              <label>
+                Imię / firma
+                <input type="text" name="name" required placeholder="np. Anna — Salon X" autocomplete="organization" />
+              </label>
+              <label>
+                E-mail
+                <input type="email" name="email" required placeholder="jan@firma.pl" autocomplete="email" />
+              </label>
+            </div>
+            <div class="form-row">
+              <label>
+                Telefon
+                <input type="tel" name="phone" placeholder="+48 …" autocomplete="tel" />
+              </label>
+              <label>
+                Pakiet
+                <select name="package" id="packageSelect">
+                  <option value="">Nie jestem pewien/na</option>
+                  <option value="Wizytówka">Wizytówka</option>
+                  <option value="Firma">Firma</option>
+                  <option value="Katalog">Katalog</option>
+                  <option value="Inne">Coś innego</option>
+                </select>
+              </label>
+            </div>
+            <label>
+              Wiadomość
+              <textarea name="message" required placeholder="Branża, czy macie logo i zdjęcia, termin startu…"></textarea>
+            </label>
+            <button class="btn btn-primary btn-full" type="submit">Wyślij zapytanie</button>
+            <p class="form-note">Wysyłając formularz akceptujesz kontakt w sprawie oferty. Bez newslettera i spamu.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a href="#top" class="logo">FORMA<span>.</span></a>
+      <span>© <span id="year"></span> FORMA · strony dla firm lokalnych</span>
+      <a href="#kontakt">kontakt@twojadomena.pl</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
