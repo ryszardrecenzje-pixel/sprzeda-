@@ -27,7 +27,7 @@
   const success = document.getElementById("formSuccess");
 
   // Opcjonalnie: wklej ID z formspree.io → formularz pójdzie na mail bez mailto
-  const FORMSPREE_ID = ""; // np. "mrpglqgz"
+  const FORMSPREE_ID = ""https://formspree.io/f/mrpglqgz"
 
   if (form) {
     form.addEventListener("submit", async function (e) {
